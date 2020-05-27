@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<html>
+
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<script src="../Controller/myscripts.js"></script>
+
+<body id="bg-iloveyou" onload="hideSlideshowItems()">
+
+
+<audio autoplay loop>
+<source src="../Images/audio/dnsahey.mp3" type="audio/mpeg">
+</audio>
+<h1 id="text-white">Welcome Mommy Loves</h1>
+
+<nav id="navs1" class="nav-bar nav-black">
+  <a id="back" class="nav-button nav-bar-left" onclick="naviOnClick('back')">Back</a>
+  <a href="#contact" class="nav-button nav-bar-item">Contact</a>
+  <a id="about" class="nav-button nav-bar-item" onclick="naviOnClick('about')">About</a>
+  <a id="start" class="nav-button nav-bar-item" onclick="naviOnClick('start')">Home</a>
+
+</nav>
+<nav id="navs2" hidden=True" class="nav-bar nav-black">
+  <a id="back" class="nav-button nav-bar-left" onclick="naviOnClick('back')">Back</a>
+  <a href="..\View\start.htm" class="nav-button nav-bar-item" onclick="closedPressed()">Exit</a>
+  <a href="#contact" class="nav-button nav-bar-item">Contact</a>
+  <a id="about" class="nav-button nav-bar-item" onclick="naviOnClick('about')">About</a>
+  <a id="start" class="nav-button nav-bar-item" onclick="naviOnClick('start')">Home</a>
+</nav>
+<br>
+<article>
+
+<div class="rowAlign">
+<label class="text-white">I LOVE YOU SO MUCH!</label>
+  <img class="mySlides" src="../Images/us/1.jpg" >
+  <img class="mySlides" src="../Images/us/2.jpg" >
+  <img class="mySlides" src="../Images/us/3.jpg" >
+  <img class="mySlides" src="../Images/us/4.jpg" >
+  <img class="mySlides" src="../Images/us/5.jpg" >
+  <img class="mySlides" src="../Images/us/6.jpg" >
+  <img class="mySlides" src="../Images/us/7.jpg" >
+  <img class="mySlides" src="../Images/us/8.jpg" >
+  <img class="mySlides" src="../Images/us/9.jpg" >
+  <img class="mySlides" src="../Images/us/10.jpg" >
+  <img class="mySlides" src="../Images/us/11.jpg" >
+  <img class="mySlides" src="../Images/us/12.jpg" >
+  <img class="mySlides" src="../Images/us/13.jpg" >
+  <img class="mySlides" src="../Images/us/14.jpg" >
+  <img class="mySlides" src="../Images/us/15.jpg" >
+  <img class="mySlides" src="../Images/us/16.jpg" >
+  <img class="mySlides" src="../Images/us/17.jpg" >
+  <img class="mySlides" src="../Images/us/18.jpg" >
+  <img class="mySlides" src="../Images/us/19.jpg" >
+  <img class="mySlides" src="../Images/us/20.jpg" >
+  <img class="mySlides" src="../Images/us/21.jpg" >
+  <img class="mySlides" src="../Images/us/22.jpg" >
+  <img class="mySlides" src="../Images/us/23.jpg" >
+  <img class="mySlides" src="../Images/us/24.jpg" >
+  <img class="mySlides" src="../Images/us/25.jpg" >
+  <img class="mySlides" src="../Images/us/26.jpg" >
+  <img class="mySlides" src="../Images/us/27.jpg" >
+  <img class="mySlides" src="../Images/us/28.jpg" >
+  <img class="mySlides" src="../Images/us/29.jpg" >
+  <img class="mySlides" src="../Images/us/30.jpg" >
+  <img class="mySlides" src="../Images/us/31.jpg" >
+  
+  <img class="mySlides" src="../Images/end1.png" >
+  <img class="mySlides" src="../Images/end2.jpg" >
+  <img class="mySlides" src="../Images/end3.png" >
+</div>
+<br/>
+<button id="btnP" onclick="pressed()" >Pause</button> 
+</article>
+<script>
+var flag = 0;
+var p = 0;
+var prev;
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides"); 
+  
+  if (flag == 0){
+	for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+	}
+	myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+	x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 3000); // Change image every 5 seconds
+ }else{
+	x[i].style.display = "none"; 
+ }
+}
+
+function pressed() {
+
+	if(p == 0){
+		document.getElementById("btnP").textContent = "Play";
+		prev = myIndex;
+		p = 1;
+		flag = 1;
+	}else{
+		myIndex = prev;
+		document.getElementById("btnP").textContent = "Pause";
+		p = 0;
+		flag = 0;
+		carousel();
+	}
+	
+}
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<footer>
+	<hr>
+	<p id="text-white">Copyright 2020</>
+</footer>
+
+</body>
+
+</html>
