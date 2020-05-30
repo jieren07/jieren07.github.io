@@ -107,6 +107,7 @@ header .margins {
   color: #ffffff;
   width:68%;
   border: 1px #ffffff solid;
+  border-radius: 5px;
   float:left;
 }
 
