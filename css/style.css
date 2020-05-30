@@ -4,7 +4,7 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color:#4A7268;
+  background-color:#FFFFFF;
   min-width: 40px;
 }
 
@@ -47,7 +47,7 @@ header a{
 header li{
   float:left;
   display: inline;;
-  padding: 0 20px 0 20px;
+  padding: 0 10px 0 10px;
   background-color: #7FAAC4;
   border-color: #000000;
   border-style: solid;
@@ -199,6 +199,12 @@ header .margins {
   overflow:auto;
   color: #000000;
 }
+
+.bio-title{
+  width: 90%;
+  height:90%;
+}
+
 section .divImage{
   margin-top: 10px;
   min-height: 25px;
