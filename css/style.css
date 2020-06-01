@@ -167,7 +167,7 @@ header .margins {
 
 .divBoxs {
   margin-top: -20px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   max-height: 50px;
   background-color: #333231;
 }
@@ -175,8 +175,8 @@ header .margins {
   margin-top: -20px;
   min-width: 100%;
   max-height: 325px;
-  border:#FFFFFF 1px solid;
-  border-radius: 10px;
+/*  border:#FFFFFF 1px solid;
+  border-radius: 10px;*/
   background-color: #1E5E6E;
   overflow:auto;
   color: #000000;
