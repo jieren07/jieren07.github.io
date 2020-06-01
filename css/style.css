@@ -152,14 +152,15 @@ header .margins {
   overflow: auto;
 }
 
+
 #rightPanel{
-  min-height: 435px;
+  min-height: 430px;
   margin-top: 5px;
   width: 30%;
   background-color:#1E5E6E;
   text-align: center;
   border: 1px #ffffff solid;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   color: #ffffff;
   float: right;
 }
@@ -189,16 +190,17 @@ header .margins {
 }
 
 .divBox2{
-  margin-top: -20px;
+  margin-top: -18px;
   min-width: 100%;
   padding-top:10px;
-  max-height: 50px;
   background-color: #1E5E6E;
   color: #000000;
   /* Comment out border
+  max-height: 50px;
   border:#FFFFFF 1px solid;
   border-radius: 10px;
-  overflow:auto;*/
+  */
+  overflow:auto;
 }
 
 .bio-title{
