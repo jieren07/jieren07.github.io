@@ -193,10 +193,7 @@ header .margins {
   min-width: 100%;
   padding-top:10px;
   max-height: 50px;
-  border:#FFFFFF 1px solid;
-  border-radius: 10px;
   background-color: #1E5E6E;
-  overflow:auto;
   color: #000000;
 }
 
