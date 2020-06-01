@@ -4,6 +4,7 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  /*background-color:#4A7268;*/
   background-color:#FFFFFF;
   min-width: 40px;
 }
@@ -154,8 +155,7 @@ header .margins {
 #rightPanel{
   min-height: 435px;
   margin-top: 5px;
-  margin-right: 5px;
-  width: 29%;
+  width: 30%;
   background-color:#1E5E6E;
   text-align: center;
   border: 1px #ffffff solid;
@@ -195,6 +195,10 @@ header .margins {
   max-height: 50px;
   background-color: #1E5E6E;
   color: #000000;
+  /* Comment out border
+  border:#FFFFFF 1px solid;
+  border-radius: 10px;
+  overflow:auto;*/
 }
 
 .bio-title{
@@ -202,11 +206,12 @@ header .margins {
   height:90%;
 }
 
+
 section .divImage{
   margin-top: 10px;
+  min-width: 30px;
   min-height: 25px;
   margin-left: 22.5px;
-  min-width: 30px;
   float:left;
 }
 .cImage{
