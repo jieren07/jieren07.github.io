@@ -220,6 +220,10 @@ header .margins {
     text-align: left;
 }
 
+.novel{
+  text-align: justify;
+  width:95%;
+}
 
 /*Ads Panel Section here*/
 #adsPanel{
