@@ -200,7 +200,6 @@ header .margins {
 }
 
 .rCenter{
-  padding-top: 25%;
   text-align: center;
 }
 .rCenter img{
@@ -294,7 +293,17 @@ header .margins {
     width: 100%;
     height: 100%;
   }
-  
+
+  .rCenter{
+    padding-top: 0;
+    padding-right: 10%;
+    padding-bottom: 15%;
+  }
+  .rCenter img{
+    width: 100%;
+    height: 100%;
+  }
+
   #adsPanel .adsBoxes img{
     width:100%;
     height: 100%;
