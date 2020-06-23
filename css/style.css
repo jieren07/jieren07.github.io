@@ -293,6 +293,10 @@ header .margins {
     height: 100%;
   }
 
+  .rightFeed{
+    width: 80%;
+    margin-top: 2px;
+  }
   #adsPanel .adsBoxes img{
     width:100%;
     height: 100%;
