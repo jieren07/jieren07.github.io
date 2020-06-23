@@ -286,6 +286,7 @@ header .margins {
   .rCenter{
     padding-top: 0;
     padding-right: 10%;
+    padding-bottom: 15px;
   }
   .rCenter img{
     width: 100%;
