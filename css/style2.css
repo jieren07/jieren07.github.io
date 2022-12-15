@@ -403,6 +403,12 @@ footer{
   border: 1px #ffffff solid;
 }
 
+footer #donate{
+  width:150px;
+  height: 80px;
+  border-radius: 10px;
+}
+
 footer p{
   margin:0;
 }
